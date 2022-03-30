@@ -138,6 +138,7 @@ $(eval $(call SetupHostCommand,python,Please install Python >= 3.5, \
 	python3.7 -V 2>&1 | grep 'Python 3', \
 	python3.6 -V 2>&1 | grep 'Python 3', \
 	python3.5 -V 2>&1 | grep 'Python 3', \
+	python3.10 -V 2>&1 | grep 'Python 3', \
 	python3 -V 2>&1 | grep -E 'Python 3\.[5-9]\.?'))
 
 $(eval $(call SetupHostCommand,python3,Please install Python >= 3.5, \
@@ -145,6 +146,7 @@ $(eval $(call SetupHostCommand,python3,Please install Python >= 3.5, \
 	python3.7 -V 2>&1 | grep 'Python 3', \
 	python3.6 -V 2>&1 | grep 'Python 3', \
 	python3.5 -V 2>&1 | grep 'Python 3', \
+	python3.10 -V 2>&1 | grep 'Python 3', \
 	python3 -V 2>&1 | grep -E 'Python 3\.[5-9]\.?'))
 
 $(eval $(call SetupHostCommand,git,Please install Git (git-core) >= 1.7.12.2, \
