@@ -4,7 +4,7 @@ git clone https://github.com/cujof/openwrt-csi && cd openwrt-csi
 ```
 If you have gcc newer than 10 then install gcc-10 and set environment variables to use it:
 ```
-export GCC=gcc-10
+export CC=gcc-10
 export CXX=g++-10
 ```
 Update and install feeds:
